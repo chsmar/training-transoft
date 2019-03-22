@@ -39,11 +39,12 @@ logging:
 # config deploy jkar kie-server
 kie:
   #172.16.0.104 ip public
-  server: http://192.168.109.25:8080/kie-server/services/rest/server
+  server: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
   user: kieserver
   pass: kieserver,.!
   projects:
     fare-engine: /home/debian/fare-engine
+    other-container: /path/to/project
   goals:
     - clean
     - deploy
