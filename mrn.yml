@@ -60,7 +60,7 @@ spring:
 kieServer:
   user: kieserver
   password: kieserver,.!
-  url: http://192.168.109.25:8080/kie-server/services/rest/server
+  url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
   containerId: fare-engine
 #Config Eureka
 eureka:
