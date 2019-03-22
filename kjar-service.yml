@@ -43,7 +43,7 @@ kie:
   user: kieserver
   pass: kieserver,.!
   projects:
-    fare-engine: /home/debian/fare-engine
+    fare-engine: fare-engine-training@/home/debian/fare-engine
     other-container: /path/to/project
   goals:
     - clean
