@@ -49,7 +49,7 @@ kie:
     - clean
     - deploy
   profiles:
-    - test
+    - development
 # Note: import disable mode product and active mode Dev
 server:
   port: 8090
